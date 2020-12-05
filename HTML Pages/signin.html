@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BizBuilding - Sign In</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <script type="text/javascript" src="./scripts/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="./scripts/mustache.min.js"></script>
+  <script type="text/javascript" src="./scripts/mustache/menudata.js"></script>
+</head>
+
+<body>
+  <!-- Header Menu Section-->
+  <div class="page-container">
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="./images/logo.png"
+                alt="Nookala Invoices - Free, Unlimited Invoicing For Your Business"
+                aria-label="Nookala Invoices - Free, Unlimited Invoicing For Your Business" /></a>
+          </div>
+          <nav>
+          </nav>
+          <a href="signup.html" class="btn home-singin">SIGN UP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="request-demo">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="form-container">
+              <form>
+                <div class="row">
+                  <h2>Sign In to Access Dashboard</h2>
+                </div>
+                <div class="row input-display">
+                  <label for="businessemail" class="label">Email Address</label>
+                  <input type="text" name="businessemail" id="businessemail" class="input-text" required=""
+                    pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" aria-required="true" />
+                </div>
+                <div class="row input-display">
+                  <label for="password" class="label">Password</label>
+                  <input type="password" name="password" id="password" class="input-text" />
+                </div>
+                <div class="row" style="text-align: left; display: block;">
+                  <label for="stacked-remember" class="pure-checkbox">
+                    <input type="checkbox" id="stacked-remember" /> Remember
+                    me</label>
+                </div>
+                <br />
+                <div class="row">
+                  <a href="index.html" style="text-decoration: underline;">Cancel</a>
+                  <a href="dashboard.html" class="btn">Sign In</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Section-->
+  <div class="footer">
+    <div class="container">
+      <p>Copyright <span id="dtyear"></span> - BizBuilding</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="./scripts/menutoggle.js"></script>
+</body>
+
+</html>

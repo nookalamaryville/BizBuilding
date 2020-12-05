@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BizBuilding - Sign Up</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <script type="text/javascript" src="./scripts/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="./scripts/mustache.min.js"></script>
+    <script type="text/javascript" src="./scripts/mustache/menudata.js"></script>
+</head>
+<body>    
+    <div class="page-container">
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="./images/logo.png"
+                                alt="BizBuilding - Tenant Issue Tracking System"
+                                aria-label="BizBuilding - Tenant Issue Tracking System" /></a>
+                    </div>
+                    <nav>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="content-wrap">
+            <div class="request-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="form-container">
+                                <form>
+                                    <div class="row">
+                                        <h2>Complaint Form</h2>
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="categories">Category:</label>
+                                        <select name="categories" id="categories">
+                                            <option value="HVAC">HVAC</option>
+                                            <option value="Water Intrusion">Water Intrusion</option>
+                                            <option value="Appliance">Appliance</option>
+                                            <option value="Windows">Windows</option>
+                                            <option value="Lighting">Lighting</option>
+                                        </select>
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="location" class="label">Location/Suit No</label>
+                                        <input type="text" name="location" id="location" class="input-text" />
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="description" class="label">Description</label>
+                                        <textarea name="description" id="description" rows=6></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <a href="javascript:void(0);" class="btn">Submit</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section-->
+        <footer id="footer">
+        <div class="footer">
+            <div class="container">
+                <p>Copyright <span id="dtyear"></span> - BizBuilding</p>
+            </div>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,1 +1,120 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BizBuilding - Tenant Comaplaint Tracking System</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="./scripts/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="./scripts/mustache.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./scripts/mustache/menudata.js"
+    ></script>
+    <script type="text/javascript" src="./scripts/mustache/home.js"></script>
+  </head>
+  <body>
+    <!-- Header Menu Section-->
+    <div class="header">
+      <div class="container">
+        <header>
+          <div class="navbar">
+            <div class="logo">
+              <a href="index.html"
+                ><img
+                  src="./images/logo.png"
+                  alt="BizBuilding - Tenant Issue Tracking System"
+                  aria-label="BizBuilding - Tenant Issue Tracking System"
+              /></a>
+            </div>
+            <nav>              
+              <a href="signin.html" class="btn home-singin">SIGN IN</a>
+              <!-- &nbsp;&nbsp;
+              <a href="signup.html" class="btn home-singin">SIGN UP NOW</a> -->              
+            </nav>
+          </div>
+        </header>        
+      </div>
+    </div>
+    <!--- Features section-->
+    <div class="features-list">
+      <div class="small-container">
+        <div class="row">
+        <div class="col-2">
+          <h4>Simplify Property Maitenance Compliants</h4>
+          <p>
+            Helps you and your tenants resolve maintenance issues faster. Notify immediately, manage issues at one place, automate
+            the process easily.
+          </p>
+          <div>
+            <a href="signup.html" class="btn home-singin">SIGN UP</a>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="./images/complaints.png" alt="simplify tenant complaints"
+            aria-label="simplify teantn complaints"  class="right"  />
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-2">
+            <img src="./images/qrcode-scan.png" alt="Tenant Submit Compliant Ticket"
+              aria-label="Tenant Submit Compliant Ticket" />
+          </div>
+          <div class="col-2">
+            <h4>Tenant Submit Compliant Ticket</h4>
+            <p>
+              Teant submit their suite or any common utilities complaints with just scanning a QR Code.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+          <h4>Notify Maintenance</h4>
+          <p>
+            System will immediately notifies the mainenance team when tenants submit a complaint.
+          </p>
+        </div>
+          <div class="col-2">
+            <img src="./images/notify.png"
+              alt="Notify Maintenance"
+              aria-label="Notify Maintenance" class="right" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <img src="./images/resolve_complaint.png" alt="Resolve Compliant"
+              aria-label="Resolve Compliant" />
+          </div>
+          <div class="col-2">
+            <h4>Resolve Compliant</h4>
+            <p>
+              Assign a team member to fix the tenant complaint and once resolve the complaint team can change status.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h4>Notify Tenant</h4>
+            <p>
+              Maintenance team can send the status to tenant who requested the complaint.
+            </p>
+          </div>
+          <div class="col-2">
+            <img src="./images/tenant-notify.png" alt="Notify Tenant"
+              aria-label="Notify Tenant" class="right" />
+          </div>
+        </div>
+      </div>
+    </div>   
+    <!--- footer section-->
+    <div class="footer">
+      <div class="container">
+        <p>Copyright <span id="dtyear"></span> - BizBuilding</p>
+      </div>
+    </div>
+  </body>
+</html>

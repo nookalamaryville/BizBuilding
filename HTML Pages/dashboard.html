@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BizBuilding - Tenant Requests</title>
+  <link rel="stylesheet" href="./css/dashboard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/f6ec481364.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="dashboard.html"><img src="./images/logo.png"
+                alt="Nookala Invoices - Free, Unlimited Invoicing For Your Business"
+                aria-label="Nookala Invoices - Free, Unlimited Invoicing For Your Business" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="sidebar">
+        <ul>
+          <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+          <li><a href="profile.html"><i class="fas fa-user-circle"></i> Profile</a></li>
+          <li><a href="staff.html"><i class="fas fa-users"></i> Staff</a></li>
+          <li><a href="categories.html"><i class="fa fa-list-alt" aria-hidden="true"></i> Categories</a></li>
+          <li><a href="index.html"><i class="fas fa-users"></i> Sign Out</a></li>
+        </ul>
+        <!-- <div class="social_media">          
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div> -->
+      </div>
+      <div class="main-content">
+        <div class="header">
+          Tenant Requests
+        </div>
+        <div class="info">
+          <div class="select_status">
+            <label for="requests">Status:</label>
+            <select name="requests" id="requests">
+              <option value="All">All</option>
+              <option value="New">New</option>
+              <option value="Processing">Processing</option>
+              <option value="Completed">Completed</option>
+            </select>
+          </div>
+          <table class="content-table">
+            <thead>
+              <tr>
+                <th>Request #</th>
+                <th>Request Date</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Location/Suite</th>
+                <th>Status</th>
+                <th>Completed Date</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>222</td>
+                <td>12/04/2020</td>
+                <td>HVAC</td>
+                <td>A/C is not working</td>
+                <td>3035</td>
+                <td>New</td>
+                <td></td>
+                <td><a href="#"><i class="fas fa-edit"></i></a> <a href="#"><i class="fas fa-trash"></i></a></td>
+              </tr>
+              <tr>
+                <td>201</td>
+                <td>11/12/2020</td>
+                <td>APPLIANCE</td>
+                <td>Water poured on floor. Needs to dry immediately.</td>
+                <td>2045</td>
+                <td>Completed</td>
+                <td>11/12/2020</td>
+                <td><a href="#"><i class="fas fa-edit"></i></a> <a href="#"><i class="fas fa-trash"></i></a></td>
+              </tr>
+              <tr>
+                <td>136</td>
+                <td>07/04/2020</td>
+                <td>WATER INTRUSION</td>
+                <td>Water leaking in the wash room. floded on floor.</td>
+                <td>Gent Washroom</td>
+                <td>Completed</td>
+                <td>07/05/2020</td>
+                <td><a href="#"><i class="fas fa-edit"></i></a> <a href="#"><i class="fas fa-trash"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

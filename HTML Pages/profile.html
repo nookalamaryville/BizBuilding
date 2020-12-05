@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BizBuilding - Tenant Requests</title>
+    <link rel="stylesheet" href="./css/dashboard.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/f6ec481364.js" crossorigin="anonymous"></script>
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            .print-container,
+            .print-container * {
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="dashboard.html"><img src="./images/logo.png"
+                                alt="Nookala Invoices - Free, Unlimited Invoicing For Your Business"
+                                aria-label="Nookala Invoices - Free, Unlimited Invoicing For Your Business" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="profile.html"><i class="fas fa-user-circle"></i> Profile</a></li>
+                    <li><a href="staff.html"><i class="fas fa-users"></i> Staff</a></li>
+                    <li><a href="categories.html"><i class="fa fa-list-alt" aria-hidden="true"></i> Categories</a></li>
+                    <li><a href="index.html"><i class="fas fa-users"></i> Sign Out</a></li>
+                </ul>
+                <!-- <div class="social_media">          
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div> -->
+            </div>
+            <div class="main-content">
+                <div class="header">
+                    Property Information
+                </div>
+                <div class="info">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="form-container">
+                                <form>
+                                    <div class="row">
+                                        <h2>Property Details</h2>
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="propertyname" class="label">Property Name</label>
+                                        <input type="text" name="propertyname" id="propertyname" class="input-text"
+                                            value="My Building" />
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="address" class="label">Address</label>
+                                        <input type="password" name="address" id="address" class="input-text" />
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="city" class="label">City</label>
+                                        <input type="text" name="city" id="city" class="input-text" />
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="state" class="label">State</label>
+                                        <input type="text" name="state" id="state" class="input-text" />
+                                    </div>
+                                    <div class="row input-display">
+                                        <label for="zipcode" class="label">Zipcode</label>
+                                        <input type="text" name="zipcode" id="zipcode" class="input-text" />
+                                    </div>
+                                    <div class="row center">
+                                        <a href="javascript:void(0);" class="btn">Save</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="form-container">
+                                <div class="row">
+                                    <h2>Property QR Code</h2>
+                                </div>
+                                <div class="row print-container">
+                                    <img src="../images/qrcode.png" width="350" />
+                                </div>
+                                <div class="row">
+                                    <div><a href="JavaScript:window.print();">Print</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
