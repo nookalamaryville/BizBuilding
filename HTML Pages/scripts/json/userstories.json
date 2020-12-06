@@ -1,0 +1,40 @@
+{
+  "userstories": [
+    {
+      "index": false,
+      "src": "./images/Lucho-Salazar.png",
+      "imgalt": "John Weinger - Entrepreneur",
+      "imgaria": "John Weinger - Entrepreneur",
+      "name": "John Weinger",
+      "review": "Tired of paper invoices. Best software for managing invoices.",
+      "designation": "Entrepreneur"
+    },
+    {
+      "index": true,
+      "src": "./images/rockey.jpg",
+      "imgalt": "Rockey - Freelancer",
+      "imgaria": "Rockey - Freelancer",
+      "name": "Rockey",
+      "review": "NookalaInvoice is fast and easy to paid.",
+      "designation": "Freelancer"
+    },
+    {
+      "index": false,
+      "src": "./images/Lucho-Salazar.png",
+      "imgalt": "Richard Atwood - Founder of xxxxxx",
+      "imgaria": "Richard Atwood - Founder of xxxxxx",
+      "name": "Richard Atwood ",
+      "review": "Just made first invoice using NookalaInvoice, worked like a champ.",
+      "designation": "Founder of xxxxxx"
+    },
+    {
+      "index": true,
+      "src": "./images/richard.jpg",
+      "imgalt": "Rockey - Accoting Manager",
+      "imgaria": "Rockey - Accoting Manager",
+      "name": "Rockey",
+      "review": "NookalaInvoice is fast and easy to paid.",
+      "designation": "Accoting Manager"
+    }
+  ]
+}

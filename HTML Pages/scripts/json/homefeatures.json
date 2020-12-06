@@ -1,0 +1,39 @@
+{
+  "homefeatures": [
+    {
+      "src": "./images/drawing-palette-color.svg",
+      "imgalt": "you can customize templates",
+      "imgaria": "you can customize templates",
+      "header": "Customized Templates",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum loremipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    },
+    {
+      "src": "./images/shake-hand.svg",
+      "imgalt": "clients can pay on online",
+      "imgaria": "clients can pay on online",
+      "header": "Accept Online Payments",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum loremipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    },
+    {
+      "src": "./images/person-winner.svg",
+      "imgalt": "Automate payment dues",
+      "imgaria": "Automate payment dues",
+      "header": "Workflow Automation",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum loremipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    }
+  ],
+  "homebanner": {
+    "header": "Powerful Online Invoicing Software",
+    "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.",
+    "src": "./images/dashboard-laptop.png",
+    "imgalt": "nookala invoices - dashboard laptop and phone",
+    "imgaria": "nookala invoices - dashboard in laptop and phone"
+  },
+  "userstory": {
+    "header": "Powerful Online Invoicing Software",
+    "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.",
+    "src": "./images/dashboard-laptop.png",
+    "imgalt": "nookala invoices - dashboard laptop and phone",
+    "imgaria": "nookala invoices - dashboard in laptop and phone"
+  }
+}

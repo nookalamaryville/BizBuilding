@@ -1,0 +1,35 @@
+<script id="tpl-homebanner" type="text/html">
+  <div class="col-2">
+    <h1>{{header}}</h1>
+    <p>
+      {{description}}
+    </p>
+    <a href="signup.html" class="btn">SIGN UP</a>
+    <a href="requestdemo.html" class="btn">REQUEST A DEMO</a>
+  </div>
+  <div class="col-2">
+    <img
+      src="{{src}}"
+      alt="{{imgalt}}"
+      aria-label="{{imgaria}}"
+      class="dashboardlaptop"
+    />
+  </div>
+</script>
+
+<script id="tpl-homefeatures" type="text/html">
+     {{#.}}
+  <div class="col-3">
+    <img
+      class="feature-icon"
+      src="{{src}}"
+      alt="{{imgalt}}"
+      aria-label="{{imgaria}}"
+    />
+    <h4>{{header}}</h4>
+    <p>
+      {{description}}
+    </p>
+  </div>
+   {{/.}}
+</script>

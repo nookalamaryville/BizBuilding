@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "menuname": "Features",
+      "link": "features.html"
+    },
+    {
+      "menuname": "Pricing",
+      "link": "pricing.html"
+    },
+    {
+      "menuname": "User Stories",
+      "link": "userstories.html"
+    },
+    {
+      "menuname": "Contact Us",
+      "link": "contactus.html"
+    }
+  ],
+  "signmenu": [
+    {
+      "menuname": "Sign In",
+      "link": "signin.html"
+    },
+    {
+      "menuname": "Sign Up",
+      "link": "signup.html"
+    }
+  ]
+}
